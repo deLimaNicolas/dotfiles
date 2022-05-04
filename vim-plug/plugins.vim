@@ -30,12 +30,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
     " Theme
     Plug 'overcache/NeoSolarized'
-    " Treesitter
+    Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' }
+    # Treesitter
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'ryanoasis/vim-devicons'
     # C# and unity stuff
     Plug 'OmniSharp/omnisharp-vim'
+    # Status bottom bar
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'tpope/vim-fugitive'
 call plug#end()
 
