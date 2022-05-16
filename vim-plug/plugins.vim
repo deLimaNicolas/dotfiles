@@ -26,21 +26,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafgarland/typescript-vim'
     Plug 'maxmellon/vim-jsx-pretty'
     Plug 'jparise/vim-graphql'
-    " AutoComplete
-    Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
     " Theme
     Plug 'overcache/NeoSolarized'
     Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' }
-    # Treesitter
-    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+    " Telescope
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'ryanoasis/vim-devicons'
-    # C# and unity stuff
+    " C# and unity stuff
     Plug 'OmniSharp/omnisharp-vim'
-    # Status bottom bar
+    " Status bottom bar
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
