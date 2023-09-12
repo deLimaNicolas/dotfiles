@@ -42,5 +42,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neovim/nvim-lspconfig'
     Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
     Plug 'terryma/vim-multiple-cursors'
+    Plug 'rescript-lang/vim-rescript'
 call plug#end()
 
