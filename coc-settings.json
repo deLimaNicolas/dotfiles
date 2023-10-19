@@ -1,0 +1,5 @@
+{
+	"suggest.enablePreselect": false,
+	"suggest.selection": "first",
+	"suggest.noselect": true
+}
