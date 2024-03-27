@@ -43,5 +43,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
     Plug 'terryma/vim-multiple-cursors'
     Plug 'rescript-lang/vim-rescript'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-pack/nvim-spectre' " May also need brew install gnu-sed
 call plug#end()
 
