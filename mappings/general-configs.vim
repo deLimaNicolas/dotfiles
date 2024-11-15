@@ -2,7 +2,6 @@ syntax on
 set ttyfast
 set number
 set termguicolors
-colorscheme nordfox
 set cursorline
 
 set ttimeoutlen=50

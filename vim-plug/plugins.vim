@@ -18,17 +18,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-lua/popup.nvim'
     " Buffer Tabs
     Plug 'akinsho/bufferline.nvim' 
-    " Dev Icons
-    " View Changes in files
-    Plug 'sindrets/diffview.nvim'
     " Language Support
     Plug 'pangloss/vim-javascript'
     Plug 'leafgarland/typescript-vim'
     Plug 'maxmellon/vim-jsx-pretty'
     Plug 'jparise/vim-graphql'
-    " Theme
-    Plug 'overcache/NeoSolarized'
-    Plug 'EdenEast/nightfox.nvim', { 'tag': 'v1.0.0' }
     " Telescope
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
@@ -40,9 +34,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
     Plug 'neovim/nvim-lspconfig'
-    Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
     Plug 'terryma/vim-multiple-cursors'
-    Plug 'rescript-lang/vim-rescript'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-pack/nvim-spectre' " May also need brew install gnu-sed
 call plug#end()
