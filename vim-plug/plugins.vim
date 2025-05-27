@@ -27,15 +27,24 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
     Plug 'ryanoasis/vim-devicons'
-    " C# and unity stuff
-    Plug 'OmniSharp/omnisharp-vim'
     " Status bottom bar
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
-    Plug 'neovim/nvim-lspconfig'
     Plug 'terryma/vim-multiple-cursors'
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-pack/nvim-spectre' " May also need brew install gnu-sed
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'williamboman/mason.nvim'
+    Plug 'williamboman/mason-lspconfig.nvim'
+    " Autocomplete and Snippet Support
+    Plug 'hrsh7th/nvim-cmp'          " Completion engine
+    Plug 'hrsh7th/cmp-nvim-lsp'      " LSP source for nvim-cmp
+    Plug 'hrsh7th/cmp-buffer'        " Buffer source for nvim-cmp
+    Plug 'hrsh7th/cmp-path'          " Path source for nvim-cmp
+    Plug 'hrsh7th/cmp-cmdline'       " Command-line source for nvim-cmp
+    Plug 'L3MON4D3/LuaSnip'          " Snippet engine
+    Plug 'saadparwaiz1/cmp_luasnip'  " Snippet completions
+    Plug 'shaunsingh/nord.nvim'
 call plug#end()
 
