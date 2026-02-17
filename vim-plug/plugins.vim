@@ -46,5 +46,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'L3MON4D3/LuaSnip'          " Snippet engine
     Plug 'saadparwaiz1/cmp_luasnip'  " Snippet completions
     Plug 'shaunsingh/nord.nvim'
+    Plug 'rust-lang/rust.vim'
 call plug#end()
 
