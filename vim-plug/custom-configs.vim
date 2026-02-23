@@ -6,13 +6,13 @@ require("bufferline").setup{}
 require("mason").setup()
 
 -- Manual LSP setup
-local lspconfig = require('lspconfig')
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
--- Python LSP (install pyright manually: :MasonInstall pyright)
-lspconfig.pyright.setup{
+vim.lsp.config('pyright', {
     capabilities = capabilities
-}
+})
+
+vim.lsp.enable('pyright')
 
 -- Autocomplete
 local cmp = require('cmp')
